@@ -1,0 +1,45 @@
+{
+    "title": {
+        "primary": "Lorem Ipsum",
+        "secondary": "Consectetur adipiscing elit"
+    },
+    "authors": [
+        "Nullam lacinia"
+    ],
+    "packages": [
+        "alphabeta",
+        "amsmath",
+        "amsthm",
+        "caption",
+        "color",
+        "fullpage",
+        "graphicx",
+        "latexsym",
+        "listings",
+        "pxfonts",
+        "stackrel",
+        "titlesec",
+        "subfig",
+        "tikz",
+        "float",
+        "hyperref"
+    ],
+    "commands": {
+        "R": "\\mathbb{R}",
+        "N": "\\mathbb{N}",
+        "norm": "\\left\\lVert#1\\right\\rVert",
+        "abs": "\\left\\lvert#1\\right\\rvert",
+        "margin": "\\hspace{4pt}",
+        "code": "\\lstinputlisting[caption={#2}]{#1}"
+    },
+    "environments": {
+        "rcases": {
+            "begin": "\\left.\\begin{aligned}",
+            "end": "\\end{aligned}\\right\\rbrace"
+        },
+        "matlab": {
+            "begin": "\\begin{figure}[hp]\\centering\\captionsetup{justification=centering}",
+            "end": "\\end{figure}"
+        }
+    }
+}
