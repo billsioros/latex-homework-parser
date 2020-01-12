@@ -1,4 +1,4 @@
-# LaTeX Project Base Generation
+# LaTeX Homework Parser
 
 ## Set Up
 

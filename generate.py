@@ -194,7 +194,7 @@ def parse_seed(seed, section_rgx=r"([1-9][0-9]*\.[^\S\n]*?.+?[\?\.]\n\n+)(?=([1-
 
 if __name__ == '__main__':
 
-    argparser = argparse.ArgumentParser(description="LaTeX Project Base Generation")
+    argparser = argparse.ArgumentParser(description="LaTeX Homework Parser")
 
     argparser.add_argument("-l", "--load",  help="specify the input file")
     argparser.add_argument("-s", "--save",  help="specify the output file",          required=True)
