@@ -42,7 +42,7 @@ encoder = UnicodeToLatexEncoder(conversion_rules=[
     'defaults'
 ])
 
-config_path = os.path.join(os.getcwd(), "config.json")
+config_path = os.path.join(os.getcwd(), ".config.json")
 
 config_template = {
     "title": {
